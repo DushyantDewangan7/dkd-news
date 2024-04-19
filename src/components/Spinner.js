@@ -2,10 +2,12 @@ import React from 'react'
 
 import Funnel from './Funnel.gif'
 
-export default function Spinner() {
+const Spinner = () =>{
   return (
     <div className='text-center '>
      <img src={Funnel} alt ="loading"/>
     </div>
   )
 }
+
+export default Spinner
